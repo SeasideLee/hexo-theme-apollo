@@ -1,6 +1,6 @@
 mixin postInfo(item)
     .post-info
-        != full_date(item.date, 'll')
+        != is_archive() ? full_date(item.date, 'll') : full_date(item.date, 'lll')
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from) 翻译 · 原文地址
 

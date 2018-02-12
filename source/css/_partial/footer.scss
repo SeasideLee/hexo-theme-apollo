@@ -1,6 +1,7 @@
 .paginator {
     margin: 4em 0;
     text-align: center;
+    height: 34px;
     .prev, .next {
         display: inline-block;
         margin: 0 4px;
@@ -13,6 +14,27 @@
         &:hover {
             background-color: #22bd77;
         }
+    }
+    .prev-text, .next-text {
+        font-size: 14px;
+        line-height: 30px;
+        display: inline-block;
+        color: #42b983;
+        &:hover {
+            color: #3aa373;
+        }
+    }
+    .prev-link {
+        float: left;
+    }
+    .prev-text {
+        margin-left: 10px;
+    }
+    .next-link {
+        float: right;
+    }
+    .next-text {
+        margin-right: 10px;
     }
 }
 

@@ -1,9 +1,8 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
-    Rss: /atom.xml
+    Zhihu: https://www.zhihu.com/people/ai-xin-jue-luo-nu-er-ha-chi/activities
+    GitHub: https://github.com/SeasideLee
 
 favicon: /favicon.png
 logo: /favicon.png
